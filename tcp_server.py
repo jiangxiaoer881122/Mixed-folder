@@ -11,7 +11,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # 绑定IP地址和端口号
 server_socket.bind((HOST, PORT))
-
+##sbcasilbc
 # 监听客户端连接请求
 server_socket.listen(1)
 print(f"Server started and listening on {HOST}:{PORT}")
