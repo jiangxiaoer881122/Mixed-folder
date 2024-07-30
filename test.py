@@ -8,7 +8,7 @@ def sig_handler(signum, frame):
 
 # 注册 Ctrl+C 信号处理程序
 signal.signal(signal.SIGINT, sig_handler)
-
+##csnacso
 # 主程序逻辑
 try:
     while True:
